@@ -1,0 +1,94 @@
+body {
+	height: 100vh;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/bg/bigBg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/* 标题 */
+.bidTitle {
+    color: #1b1d50;
+    font-size: 31px;
+    font-weight: 600;
+}
+/* 账号密码文字 */
+.logCon {
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+/* 登录按钮样式 */
+.logingBut {
+    background: #1b1d50;
+    border: none;
+    padding: 12px 0px;
+    color: #edefee;
+    border-radius: 2px;
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/* 登录按钮样式 */
+.register {
+    background: #1b1d50;
+    border: none;
+    padding: 12px 0px;
+    color: #edefee;
+    border-radius: 2px;
+    width: 340px;
+    margin-right: 19px;
+    margin-top: 5px;
+}
+
+
+/* 账号密码输入框 */
+.bt_input {
+    border-radius: 2px;
+    border: none;
+    padding: 11px 5px;
+    width: 330px;
+    margin-right: 20px;
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    background: #ffffffd9;
+}
+/* 透明框 */
+.content {
+    width: 42%;
+    position: fixed;
+    background: #ffffff57;
+    left: 29%;
+    padding: 5% 1%;
+    margin-top: 12%;
+    text-align: center;
+    border-radius: 5px;
+}
+/* 背景图片 */
+.bgCircle2 {
+	width: 55%;
+	position: fixed;
+	top: 68%;
+	left: 23%;
+	transition: all 60s linear;
+	transform: rotate(90deg);
+}
+/* 背景图片 */
+.bgCircle3 {
+	width: 50%;
+	position: fixed;
+	top: 70%;
+	left: 25%;
+	transition: all 60s linear;
+	transform: rotate(-90deg);
+}
+/* 背景图片 */
+.bgCircle4 {
+	width: 100%;
+	position: fixed;
+	top: 27%;
+	transition: all 60s linear;
+	transform: rotate(90deg);
+}
